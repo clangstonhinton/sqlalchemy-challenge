@@ -32,7 +32,9 @@ Data analysis was performed on a climate data for Honolulu, Hawaii for the perio
     - Temperatures (tobs):  returns the last 12 months of temperature observations with dates for the most active station in JSON format
     - Start: returns the MIN/AVG/MAX temperatures for a specified start date and end date in JSON format
 
-
+<p align="center">
+  <img width="364" alt="climate api website" src="https://user-images.githubusercontent.com/44728723/221297504-2a89ed39-6bbb-459b-bb8b-656de1c90ff2.png">
+</p>
 
 
 ## Technology
