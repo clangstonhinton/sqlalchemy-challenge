@@ -10,11 +10,11 @@ Data analysis was performed on a climate data for Honolulu, Hawaii for the perio
 
 ## Approach
 
-(1) SQLalchemy was used to create an engine to connect to the sqlite database and run queries for data analytics
-(2) Performed a query to retrieve the data and precipitation scores for the last 12 months and graph the data in a matplotlib bar chart.
-(3) Performed queries to retrieve data and calculate the minimum, average and maximum temperature observations for the most active weather station.
-(4) Performed a query to retrieve the last 12 months of temperature data and plot a histogram of the data
-(5) An app was created using flask which included a homepage and 5 routes, including:
+- SQLalchemy was used to create an engine to connect to the sqlite database and run queries for data analytics
+- Performed a query to retrieve the data and precipitation scores for the last 12 months and graph the data in a matplotlib bar chart.
+- Performed queries to retrieve data and calculate the minimum, average and maximum temperature observations for the most active weather station.
+- Performed a query to retrieve the last 12 months of temperature data and plot a histogram of the data
+- An app was created using flask which included a homepage and 5 routes, including:
     - Precipitation: returns the last 12 months of precipitation observations with dates in JSON format
     - Stations: returns details of the 9 weather stations in JSON format
     - Temperatures (tobs):  returns the last 12 months of temperature observations with dates for the most active station in JSON format
