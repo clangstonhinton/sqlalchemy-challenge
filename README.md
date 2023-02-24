@@ -14,15 +14,17 @@ Data analysis was performed on a climate data for Honolulu, Hawaii for the perio
 
 - Performed a query to retrieve the data and precipitation scores for the last 12 months and graph the data in a matplotlib bar chart.
 
-<img width="400" alt="Screen Shot 2023-02-24 at 4 14 09 PM" src="https://user-images.githubusercontent.com/44728723/221295851-3de2d497-5565-4876-8bb7-f481ce2f7aa7.png">
-
+<p align="center">
+  <img width="400" alt="Screen Shot 2023-02-24 at 4 14 09 PM" src="https://user-images.githubusercontent.com/44728723/221295851-3de2d497-5565-4876-8bb7-f481ce2f7aa7.png">
+</p>
 
 - Performed queries to retrieve data and calculate the minimum, average and maximum temperature observations for the most active weather station.
 
 - Performed a query to retrieve the last 12 months of temperature data and plot a histogram of the data
 
-<img width="400" alt="Screen Shot 2023-02-24 at 4 14 25 PM" src="https://user-images.githubusercontent.com/44728723/221295770-ee3795bc-b12f-4b51-8471-14baec9be1c2.png">
-
+<p align="center">
+    <img width="400" alt="Screen Shot 2023-02-24 at 4 14 25 PM" src="https://user-images.githubusercontent.com/44728723/221295770-ee3795bc-b12f-4b51-8471-14baec9be1c2.png">
+</p>
 
 - An app was created using flask which included a homepage with an image and 5 static routes as well as dynamic routes, including:
     - Precipitation: returns the last 12 months of precipitation observations with dates in JSON format
