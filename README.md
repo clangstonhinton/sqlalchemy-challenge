@@ -1,5 +1,5 @@
 # sqlalchemy-challenge
-Leverage SQL, SQLalchemy and Python to perform data exploration and climate analysis on a sqlite database. A climate app was created using Flask to contain the analysis on the web.
+Leverage SQLalchemy, Python and Flask to perform data exploration and climate analysis on a sqlite database. A climate app API was created using Flask to contain the analysis.
 
 ## Background
 
@@ -26,7 +26,7 @@ Data analysis was performed on a climate data for Honolulu, Hawaii for the perio
     <img width="400" alt="Screen Shot 2023-02-24 at 4 14 25 PM" src="https://user-images.githubusercontent.com/44728723/221295770-ee3795bc-b12f-4b51-8471-14baec9be1c2.png">
 </p>
 
-- An app was created using flask which included a homepage with an image and 5 static routes as well as dynamic routes, including:
+- An API app was created using flask which included a homepage with an image and 5 static routes as well as dynamic routes, including:
     - Precipitation: returns the last 12 months of precipitation observations with dates in JSON format
     - Stations: returns details of the 9 weather stations in JSON format
     - Temperatures (tobs):  returns the last 12 months of temperature observations with dates for the most active station in JSON format
@@ -47,11 +47,4 @@ Data analysis was performed on a climate data for Honolulu, Hawaii for the perio
 - flask
 
 ## Sources used for this analysis
-
-Six (6) csv files including:
-    - departments.csv
-    - dept_emp.csv
-    - dept_manager.csv
-    - employees.csv
-    - salaries.csv
-    - titles.csv
+- hawaii.sqlite
