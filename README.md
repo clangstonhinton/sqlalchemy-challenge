@@ -1,5 +1,5 @@
 # sqlalchemy-challenge
-Leverage SQLalchemy, Python and Flask to perform data exploration and climate analysis on a sqlite database. A climate app API was created using Flask to contain the analysis.
+Leverage SQLalchemy, Python and Flask to perform data exploration and data analysis on a sqlite database. A climate app API was created using Flask to contain the analysis.
 
 ## Background
 
