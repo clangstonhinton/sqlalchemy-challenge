@@ -10,12 +10,11 @@ from flask import Flask, jsonify
 import datetime as dt
 from dateutil.relativedelta import relativedelta
 
-
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///hawaii.sqlite")
 
+engine = create_engine("sqlite:///Resources/hawaii.sqlite")
 
 # Reflect an existing database into a new model.
 Base = automap_base()
